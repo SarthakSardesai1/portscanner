@@ -4,6 +4,10 @@ This Python script allows you to scan a target host for open ports. It uses sock
 
 Usage:--
 
+clone this repo -- git clone https://github.com/SarthakSardesai1/portscanner.git  
+                    cd portscanner
+make script executable -- chmod +x portscanner.py
+
 Installation: No additional installation is required since the socket module is built into Python.
 
 Running the Scanner:
