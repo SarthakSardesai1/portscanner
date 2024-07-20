@@ -13,9 +13,13 @@ Installation: No additional installation is required since the socket module is 
 
 Running the Scanner:
 Execute the script by providing the target IP address or hostname, along with optional parameters:
+
 -s or --start: Start port (default: 1)
+
 -e or --end: End port (default: 65535)
+
 -t or --threads: Number of threads (default: 10)
+
 -o or --output: Output file for port results (optional)
 
 Example:
