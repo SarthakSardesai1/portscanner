@@ -2,6 +2,7 @@ import argparse
 import socket
 import threading
 from datetime import datetime
+import sys
 
 def scan_port(target, port, output_file=None):
     try:
