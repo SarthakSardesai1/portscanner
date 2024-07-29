@@ -18,12 +18,12 @@ Execute the script by providing the target IP address or hostname, along with op
 
 -e or --end: End port (default: 65535)
 
--t or --threads: Number of threads (default: 10)
+-t or --threads: Number of threads (default: 500)
 
 -o or --output: Output file for port results (optional)
 
 Example:
-python port_scanner.py example.com -s 80 -e 100 -t 5 -o results.txt
+python port_scanner.py example.com -s20 -e1000 -t700 -o results.txt
 
 Output:
 The script will display which ports are open during the scan.
